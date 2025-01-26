@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+header {
+    background: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.profile-pic {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image */
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 1rem; /* Make it circular */
+}
+
+.project-image, .certification-image {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin: 10px 0; /* Add margin between images and text */
+}
+
+.batas {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card {
+    border: 1px solid #ddd; /* Light border for the card */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow */
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.card-img-top {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.d-flex {
+    display: flex; /* Use flexbox for layout */
+}
+
+.justify-content-between {
+    justify-content: space-between; /* Space between title and total */
+}
+
+.align-items-center {
+    align-items: center; /* Center items vertically */
+}
+
+.mb-3 {
+    margin-bottom: 1rem; /* Margin below the title */
+}
